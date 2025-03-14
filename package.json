@@ -1,0 +1,39 @@
+{
+  "name": "fit-gym",
+  "version": "1.0.0",
+  "description": "BE Project AI based workout assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gourangi-taware/BE-Project-Fit-Gym-GUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gourangi-taware/BE-Project-Fit-Gym-GUI/issues"
+  },
+  "homepage": "https://github.com/gourangi-taware/BE-Project-Fit-Gym-GUI#readme",
+  "dependencies": {
+    "@mediapipe/pose": "^0.5.1635988162",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.1",
+    "clarifai": "^2.9.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "danfojs-node": "^1.1.1",
+    "ejs": "^3.1.7",
+    "express": "^4.17.2",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.1",
+    "passport": "^0.5.2",
+    "requirejs": "^2.3.6"
+  }
+}

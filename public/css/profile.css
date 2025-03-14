@@ -1,0 +1,10 @@
+#personalInformation{
+   width: 100%;
+   
+   margin: 0% 4%;
+   font-size: large;
+   color: black;
+}
+#personalInformation span{
+   color: black;
+}
